@@ -2,6 +2,7 @@ name: TrigDev
 on:
   push:
     branches:
+      - main
       - dev
 jobs:
   welcome:
