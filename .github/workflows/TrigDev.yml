@@ -1,0 +1,10 @@
+name: TrigDev
+on:
+  push:
+    branches:
+      - dev
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello from main"

@@ -6,4 +6,5 @@ jobs:
   welcome:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Manual dev"
+      - run: echo "Manual main"
+

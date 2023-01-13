@@ -12,4 +12,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "Slave Workflow form dev"
+      - run: echo "Slave Workflow"
+
