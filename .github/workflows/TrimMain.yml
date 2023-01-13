@@ -2,7 +2,7 @@ name: TrigMain
 on:
   push:
     branches:
-      - main
+      - dev
 jobs:
   welcome:
     runs-on: ubuntu-latest
