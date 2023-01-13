@@ -1,0 +1,9 @@
+name: Manual
+run-name: Manual
+on:
+  workflow_dispatch:
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Manual dev"
