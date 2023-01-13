@@ -1,0 +1,17 @@
+name: Staging
+
+on:
+  push:
+    branches: 
+      - dev
+  workflow_dispatch:
+#   workflows: ["E2E Test App"]
+#   types:
+#     - completed
+
+jobs:
+  containering:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "DONE"
