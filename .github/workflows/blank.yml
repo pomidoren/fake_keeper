@@ -5,6 +5,7 @@ on:
     branches: 
       - dev
   workflow_dispatch:
+  pull_request:
 #   workflows: ["E2E Test App"]
 #   types:
 #     - completed
