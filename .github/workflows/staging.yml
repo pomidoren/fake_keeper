@@ -2,7 +2,7 @@ name: Staging
 
 on:
   push:
-    branches:
+    workflow_dispatch:
       - main
   workflow_run:
 #   workflows: ["E2E Test App"]
