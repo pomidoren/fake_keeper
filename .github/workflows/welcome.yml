@@ -3,7 +3,7 @@ run-name: Welcome new commits
 on:
   push:
     branches:
-      - dev
+      - main
 jobs:
   welcome:
     runs-on: ubuntu-latest
