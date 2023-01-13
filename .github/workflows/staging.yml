@@ -1,10 +1,11 @@
 name: Staging
 
 on:
-  workflow_run:
-    workflows: ["E2E Test App"]
-    types:
-      - completed
+  workflow_dispatch:
+# workflow_run:
+#   workflows: ["E2E Test App"]
+#   types:
+#     - completed
 
 jobs:
   containering:
