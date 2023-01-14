@@ -1,0 +1,10 @@
+name: n2
+
+on:
+  pull_request:
+
+jobs:
+  pr:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "n2"
