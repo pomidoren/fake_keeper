@@ -1,4 +1,4 @@
-name: PR to Main
+name: PR to Dev
 
 on:
   pull_request:
@@ -7,4 +7,4 @@ jobs:
   pr:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "PR to Main"
+      - run: echo "PR to Dev"
