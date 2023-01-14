@@ -1,0 +1,10 @@
+name: WF_in_main
+
+on:
+  pull_request:
+
+jobs:
+  pr:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "WF_in_main"
