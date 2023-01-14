@@ -1,4 +1,4 @@
-name: 1
+name: 2
 
 on:
   pull_request:
@@ -7,4 +7,4 @@ jobs:
   pr:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "1"
+      - run: echo "2"
